@@ -1,0 +1,18 @@
+{
+  "name": "coconutrisk-ai-component-03",
+  "version": "1.0.0",
+  "description": "Component 03: Water Stress, Drought and Future Forecast Risk Modelling for CoconutRisk AI",
+  "scripts": {
+    "start:ml": "python ml-service/app/main.py",
+    "start:api": "node api/src/app.js",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "train:all": "python ml-service/training/train_all.py",
+    "test:ml": "python -m pytest ml-service/tests/test_c3_ml.py -v",
+    "test:api": "cd api && npm test",
+    "test:all": "python -m pytest ml-service/tests/test_c3_ml.py -v && cd api && npm test"
+  },
+  "keywords": ["drought", "spi-3", "coconut", "pytorch", "xgboost", "time-series"],
+  "author": "CoconutRisk AI Research Team",
+  "license": "UNLICENSED"
+}

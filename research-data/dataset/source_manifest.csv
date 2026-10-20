@@ -1,0 +1,7 @@
+artifact,origin,source_name,source_url,actual_observations,period
+environmental_daily.csv.gz,SIMULATED,seeded simulation generator,,False,1981-2025
+monthly_reference_1981_2025.csv,DERIVED_FROM_SIMULATED,daily simulator,,False,1981-2025
+drought_monthly_ml.csv,DERIVED_FROM_SIMULATED,daily simulator and fixed gamma climatology,,False,2001-2025
+coconut_grid.geojson,SYNTHETIC_DEMO_GEOMETRY,approximate site centers only,,False,not applicable
+ERA5-Land (not included),PUBLIC_REAL_SOURCE_OPTION,Copernicus ERA5-Land,https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-timeseries,False,requires user data acquisition
+CHIRPS v3 (not included),PUBLIC_REAL_SOURCE_OPTION,Climate Hazards Center,https://www.chc.ucsb.edu/data/chirps3,False,requires user data acquisition

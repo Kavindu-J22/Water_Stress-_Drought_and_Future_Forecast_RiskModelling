@@ -1,0 +1,15 @@
+{
+  "seed": 20261020,
+  "generator": "synthetic_environmental_simulation",
+  "generation_utc": "2026-10-20T09:04:55.309737+00:00",
+  "sites": 32,
+  "daily_records": 525952,
+  "reference_monthly_records": 17280,
+  "ml_monthly_records": 9600,
+  "period": "1981-01-01 to 2025-12-31",
+  "split_basis": "target date per horizon",
+  "warning": "EVERY numeric environmental record is simulated. NOT official Sri Lankan weather, measured plantation stress or verified coconut land-use.",
+  "actual_field_records": 0,
+  "actual_weather_records": 0,
+  "notes": "PET and soil-moisture are heuristic simulation proxies, not measured quantities; reference gamma fits fixed to synthetic 1981-2010."
+}

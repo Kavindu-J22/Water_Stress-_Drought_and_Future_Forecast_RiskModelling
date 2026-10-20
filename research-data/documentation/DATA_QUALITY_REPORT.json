@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "synthetic_data_only": true,
+  "daily_records": 525952,
+  "reference_monthly_records": 17280,
+  "ml_monthly_records": 9600,
+  "locations": 32,
+  "risk_class_counts": {
+    "Low": 5584,
+    "Medium": 1681,
+    "High": 1228,
+    "Critical": 1107
+  },
+  "split_counts": {
+    "1": [
+      [
+        "train",
+        7648
+      ],
+      [
+        "validation",
+        768
+      ],
+      [
+        "test",
+        1152
+      ]
+    ],
+    "3": [
+      [
+        "train",
+        7584
+      ],
+      [
+        "validation",
+        768
+      ],
+      [
+        "test",
+        1152
+      ]
+    ],
+    "6": [
+      [
+        "train",
+        7488
+      ],
+      [
+        "validation",
+        768
+      ],
+      [
+        "test",
+        1152
+      ]
+    ]
+  },
+  "baseline_metrics": [
+    {
+      "horizon_months": "1",
+      "model": "Persistence_SPI3",
+      "test_sample_count": "1152",
+      "mae": "0.50757",
+      "rmse": "0.65179",
+      "evaluation_data": "SIMULATED_TEST_ONLY",
+      "reported_as_real_world_accuracy": "False"
+    },
+    {
+      "horizon_months": "1",
+      "model": "Seasonal_Climatology_SPI3",
+      "test_sample_count": "1152",
+      "mae": "0.84102",
+      "rmse": "1.05985",
+      "evaluation_data": "SIMULATED_TEST_ONLY",
+      "reported_as_real_world_accuracy": "False"
+    },
+    {
+      "horizon_months": "3",
+      "model": "Persistence_SPI3",
+      "test_sample_count": "1152",
+      "mae": "0.95851",
+      "rmse": "1.19679",
+      "evaluation_data": "SIMULATED_TEST_ONLY",
+      "reported_as_real_world_accuracy": "False"
+    },
+    {
+      "horizon_months": "3",
+      "model": "Seasonal_Climatology_SPI3",
+      "test_sample_count": "1152",
+      "mae": "0.84102",
+      "rmse": "1.05985",
+      "evaluation_data": "SIMULATED_TEST_ONLY",
+      "reported_as_real_world_accuracy": "False"
+    },
+    {
+      "horizon_months": "6",
+      "model": "Persistence_SPI3",
+      "test_sample_count": "1152",
+      "mae": "1.13805",
+      "rmse": "1.40197",
+      "evaluation_data": "SIMULATED_TEST_ONLY",
+      "reported_as_real_world_accuracy": "False"
+    },
+    {
+      "horizon_months": "6",
+      "model": "Seasonal_Climatology_SPI3",
+      "test_sample_count": "1152",
+      "mae": "0.84102",
+      "rmse": "1.05985",
+      "evaluation_data": "SIMULATED_TEST_ONLY",
+      "reported_as_real_world_accuracy": "False"
+    }
+  ],
+  "checks": [
+    "schema",
+    "uniqueness",
+    "range",
+    "provenance",
+    "daily-monthly-reconciliation",
+    "spi risk thresholds",
+    "future target alignment",
+    "target-date split",
+    "geojson is illustrative"
+  ]
+}

@@ -1,0 +1,25 @@
+horizon_months,model,algorithm,test_sample_count,mae,rmse,drought_recall,macro_f1,conformal_90_coverage_pct,training_time_seconds,evaluation_data,reported_as_real_world_accuracy
+1,Persistence,Persistence (SPI-3(t)),1152,0.50757,0.65179,0.6744,0.5244,91.49,0.01,SIMULATED_TEST_ONLY,False
+1,Seasonal Climatology,Seasonal Climatology (SPI-3 ~ 0),1152,0.84102,1.05985,0.0,0.169,86.46,0.01,SIMULATED_TEST_ONLY,False
+3,Persistence,Persistence (SPI-3(t)),1152,0.95851,1.19679,0.4006,0.308,90.8,0.01,SIMULATED_TEST_ONLY,False
+3,Seasonal Climatology,Seasonal Climatology (SPI-3 ~ 0),1152,0.84102,1.05985,0.0,0.169,86.46,0.01,SIMULATED_TEST_ONLY,False
+6,Persistence,Persistence (SPI-3(t)),1152,1.13805,1.40197,0.2911,0.2428,89.32,0.01,SIMULATED_TEST_ONLY,False
+6,Seasonal Climatology,Seasonal Climatology (SPI-3 ~ 0),1152,0.84102,1.05985,0.0,0.169,86.46,0.01,SIMULATED_TEST_ONLY,False
+1,XGBoost,Gradient Boosted Decision Trees (XGBoost),1152,0.38647,0.48713,0.6657,0.5554,91.23,0.304,SIMULATED_TEST_ONLY,False
+1,Random Forest,Random Forest Regressor (Ensemble Trees),1152,0.40825,0.51459,0.6225,0.5512,90.02,2.112,SIMULATED_TEST_ONLY,False
+3,XGBoost,Gradient Boosted Decision Trees (XGBoost),1152,0.70083,0.87357,0.1297,0.2789,90.71,0.364,SIMULATED_TEST_ONLY,False
+3,Random Forest,Random Forest Regressor (Ensemble Trees),1152,0.7013,0.87303,0.1268,0.2451,91.41,1.94,SIMULATED_TEST_ONLY,False
+6,XGBoost,Gradient Boosted Decision Trees (XGBoost),1152,0.76401,0.96045,0.0,0.2125,90.71,0.254,SIMULATED_TEST_ONLY,False
+6,Random Forest,Random Forest Regressor (Ensemble Trees),1152,0.76401,0.96028,0.0,0.2065,91.58,2.086,SIMULATED_TEST_ONLY,False
+1,SARIMAX,Seasonal AutoRegressive Integrated Moving Average (SARIMAX),1152,0.52116,0.66787,0.3112,0.3483,88.63,1.209,SIMULATED_TEST_ONLY,False
+3,SARIMAX,Seasonal AutoRegressive Integrated Moving Average (SARIMAX),1152,0.78998,0.99611,0.0,0.1919,86.02,1.319,SIMULATED_TEST_ONLY,False
+6,SARIMAX,Seasonal AutoRegressive Integrated Moving Average (SARIMAX),1152,0.83527,1.05388,0.0,0.169,86.55,1.102,SIMULATED_TEST_ONLY,False
+1,LSTM,Deep Sequence Forecaster (LSTM),1152,0.36806,0.46598,0.6859,0.5694,92.27,62.638,SIMULATED_TEST_ONLY,False
+1,GRU,Deep Sequence Forecaster (GRU),1152,0.36255,0.46253,0.6571,0.5635,92.53,82.172,SIMULATED_TEST_ONLY,False
+1,TCN,Deep Sequence Forecaster (TCN),1152,0.37509,0.47281,0.6513,0.5481,91.41,71.95,SIMULATED_TEST_ONLY,False
+3,LSTM,Deep Sequence Forecaster (LSTM),1152,0.73138,0.92444,0.0605,0.245,87.33,52.194,SIMULATED_TEST_ONLY,False
+3,GRU,Deep Sequence Forecaster (GRU),1152,0.72516,0.91865,0.1988,0.2876,88.89,91.211,SIMULATED_TEST_ONLY,False
+3,TCN,Deep Sequence Forecaster (TCN),1152,0.70787,0.89386,0.121,0.2692,90.28,81.558,SIMULATED_TEST_ONLY,False
+6,LSTM,Deep Sequence Forecaster (LSTM),1152,0.83965,1.07739,0.0375,0.2084,87.85,66.061,SIMULATED_TEST_ONLY,False
+6,GRU,Deep Sequence Forecaster (GRU),1152,0.76883,0.96569,0.0,0.2014,92.01,102.795,SIMULATED_TEST_ONLY,False
+6,TCN,Deep Sequence Forecaster (TCN),1152,0.84581,1.08876,0.0115,0.2055,86.63,77.219,SIMULATED_TEST_ONLY,False
